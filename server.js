@@ -32,6 +32,6 @@ io.on('connection', function (socket) {
 /**
  * Lancement du serveur en écoutant les connexions arrivant sur le port 3000
  */
-http.listen(80, function () {
+http.listen(3000, function () {
   console.log('Server is listening on *:3000');
 });
