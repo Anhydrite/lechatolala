@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Socket.IO chat</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <section id="chat">
+      <ul id="messages"></ul>
+      <form action="">
+        <input id="u" placeholder="nom" autocomplete="off" />
+        <input id="m" placeholder="message" autocomplete="off" /><button>Send</button>
+      </form>
+    </section>
+    <script src="./jquery_connard.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
